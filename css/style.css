@@ -37,7 +37,7 @@ html {
 }
 
 body {
-     color: #666666;
+     color: #ffffff;
      font-size: 14px;
      font-family: Poppins;
      line-height: 1.80857;
@@ -222,10 +222,10 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-color: #03040c;
+    background-color: #ffffff;
     height: auto;
     padding-bottom: 0;
-    border-top: 25px solid #100702;
+    border-top: 25px solid #ffffff;
 }
 
 .logo {
@@ -257,12 +257,12 @@ button {
 }
 
 .menu_text li.active a{
-    color: #c2a20e;
+    color: #778166;
 }
 
 
 .menu_text li a:hover {
-    color: #c2a20e;
+    color: #778166;
 }
 
 .overlay {
@@ -317,7 +317,7 @@ button {
 
 .taital_main::after {
     display: block;
-    background-image: url(../images/banner-bg.png);
+    background-image: url(../images/banner2-bg.png);
     height: 573px;
     width: 26%;
     content: "";
@@ -336,7 +336,7 @@ button {
     width: 100%;
     float: left;
     padding-top: 150px;
-    background-color: rgba(17,17,17,0.93);
+    background-color: rgba(139, 140, 141, 0.50);
     padding-bottom: 236px;
     position: relative;
     z-index: 0;
@@ -371,7 +371,7 @@ button {
 
 .btn_main .active a {
     color: #ffffff;
-    background-color: #c2a20e;
+    background-color: #778166;
 }
 .btn_main li a {
     float: left;
@@ -389,7 +389,7 @@ button {
     padding: 0px;
 }
 .btn_main li a:hover {
-    background-color: #c2a20e;
+    background-color: #778166;
     color: #ffffff;
 }
 
@@ -412,7 +412,7 @@ button {
 
 .way_main_text .active a {
     color: #ffffff;
-    background-color: #c2a20e;
+    background-color: #778166;
 }
 .way_main_text li a {
     float: left;
@@ -428,7 +428,7 @@ button {
     padding: 0px;
 }
 .way_main_text li a:hover {
-    background-color: #c2a20e;
+    background-color: #778166;
     color: #ffffff;
 }
 
@@ -450,7 +450,7 @@ button {
 
 .header_section::after {
     display: block;
-    border-bottom: 5px solid #c2a108;
+    border-bottom: 5px solid #778166;
     height: 0px;
     width: 80%;
     content: "";
@@ -460,7 +460,7 @@ button {
     position: relative;
     width: 15px;
     height: 15px;
-    background-color: #c2a20e;
+    background-color: #778166;
     top: -110px;
     border-radius: 15px;
     left: -50%;
@@ -469,7 +469,7 @@ button {
 .search_section {
     width: 85%;
     float: right;
-    background-image: url(../images/img-2.png);
+    background-image: url(../images/img-22.png);
     height: auto;
     background-size: cover;
     padding: 15px 0px 25px 0px;
@@ -528,7 +528,7 @@ button {
 .realestates_bg{
      width: 100%;
      float: left;
-     background-image: url(../images/img-3.png);
+     background-image: url(../images/world-map.png);
      height: auto;
      background-size: 100%;
      background-repeat: no-repeat;
@@ -538,9 +538,18 @@ button {
      width: 100%;
      float: left;
      font-size: 46px;
-     color: #c2a20e;
+     color: #778166;
      font-weight: bold;
      text-align: center;
+}
+
+.realestates_taital2{
+    width: 100%;
+    float: left;
+    font-size: 25px;
+    color: #778166;
+    font-weight: bold;
+    text-align: center;
 }
 
 .Contrary_taital{
