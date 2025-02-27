@@ -2,17 +2,17 @@
 
 
 /*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
-
+/*-
 @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
-
+-*/
 /*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
  2) font-family: 'Poppins', sans-serif;
  ----------------------------------------*****/
 
 
 /*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
-
+/*-
 @import url(animate.min.css);
 @import url(normalize.css);
 @import url(icomoon.css);
@@ -24,7 +24,7 @@
 @import url(jquery.fancybox.min.css);
 @import url(jquery-ui.css);
 @import url(nice-select.css);
-
+-*/
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 
 * {
@@ -36,6 +36,7 @@ html {
      scroll-behavior: smooth;
 }
 
+/*-- ALQUIZEN --*/
 body {
      color: #ffffff;
      font-size: 14px;
@@ -43,6 +44,7 @@ body {
      line-height: 1.80857;
      font-weight: normal;
      overflow-x: hidden;
+     font-family: 'Poppins', sans-serif;
 }
 
 a {
@@ -305,10 +307,10 @@ button {
     left: 85px;
 }
 
-.banner_section {
+.banner_section {/*-- ALQUIZEN --*/
     width: 100%;
     float: left;
-    background-image: url(../images/banner.png);
+    background-image: url(../images/head-alquizen.png);
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -332,11 +334,11 @@ button {
      float: left;
 }
 
-.taital_main {
+.taital_main {/*-- ALQUIZEN --*/
     width: 100%;
     float: left;
     padding-top: 150px;
-    background-color: rgba(139, 140, 141, 0.50);
+    background-color: rgba(255, 255, 255, 0.50);
     padding-bottom: 236px;
     position: relative;
     z-index: 0;
@@ -525,10 +527,10 @@ button {
      width: 100%;
      float: left;
 }
-.realestates_bg{
+.realestates_bg{/*-- ALQUIZEN --*/
      width: 100%;
      float: left;
-     background-image: url(../images/world-map.png);
+     background-image: url(../images/spain-dot-map.png);
      height: auto;
      background-size: 100%;
      background-repeat: no-repeat;
@@ -561,7 +563,7 @@ button {
      margin-left: 0px;
 }
 
-.realestates_section_2{
+.realestates_section_2{/*-- ALQUIZEN --*/
      width: 100%;
      float: left;
      margin-top: 40px;
@@ -570,21 +572,21 @@ button {
 .images_4{
      width: 100%;
      float: left;
-     background-image: url(../images/img-4.png);
+     background-image: url(../images/img-4.jpg);
      height: auto;
 }
 
 .images_5{
      width: 100%;
      float: left;
-     background-image: url(../images/img-5.png);
+     background-image: url(../images/img-5.jpg);
      height: auto;
 }
 
 .images_6{
      width: 100%;
      float: left;
-     background-image: url(../images/img-6.png);
+     background-image: url(../images/img-6.jpg);
      height: auto;
 }
 
@@ -616,18 +618,18 @@ button {
 }
 
 .home_taital_main:hover{
-    background-color: rgba(203,174,19,0.9);
+    background-color: rgba(168,183,140,0.9);
 
 }
 
 .home_taital_main.active {
-    background-color: rgba(203,174,19,0.9);
+    background-color: rgba(168,183,140,0.9);
 }
 
 .home_text{
      width: 100%;
      float: left;
-     font-size: 34px;
+     font-size: 25px;
      color: #fdfdfc;
      text-align: center;
 }
@@ -635,7 +637,7 @@ button {
 .price_text {
     width: 100%;
     float: left;
-    font-size: 34px;
+    font-size: 20px;
     color: #fff;
     text-align: center;
     font-weight: 600;
@@ -652,7 +654,7 @@ button {
      width: 100%;
      float: left;
      font-size: 46px;
-     color: #c2a20e;
+     color: #778166;
      font-weight: bold;
 }
 
@@ -676,7 +678,7 @@ button {
     font-size: 20px;
     color: #ffffff;
     text-align: center;
-    background-color: #c2a20e;
+    background-color: #778166;
     padding: 8px;
 }
 
@@ -691,18 +693,42 @@ button {
 
 }
 
+.technology_section{
+    width: 100%;
+    float: left;
+    background-color: #A8B78C;
+}
+
+.technology_text{
+    width: 100%;
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
 .properties_section{
      width: 100%;
      float: left;
+     background-color: #FFFFFF;
 }
 
 .properties_text{
      width: 100%;
      float: left;
      font-weight: bold;
-     font-size: 46px;
+     font-size: 20px;
      color: #323131;
      text-align: center;
+}
+
+.properties_text_2{
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #484847;
+    text-align: center;
 }
 
 .ipsum_text{
@@ -723,7 +749,6 @@ button {
 .custom_box-style {
     background-size: 100%;
     background-repeat: no-repeat;
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
     height: 350px;
     width: 450px;
 }
@@ -771,7 +796,7 @@ button {
      float: left;
      font-size: 46px;
      font-weight: bold;
-     color: #c2a20e;
+     color: #778166;
 }
 
 .contact_section_2 {
