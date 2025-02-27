@@ -648,6 +648,7 @@ button {
 .about_section{
      width: 100%;
      float: left;
+     background-color: #A8B78C;
 }
 
 .about_text{
@@ -687,7 +688,7 @@ button {
      background-color: #000;
 }
 
-.image_8{
+.image_us{
      width: 100%;
      float: left;
 
@@ -729,6 +730,35 @@ button {
     font-size: 18px;
     color: #484847;
     text-align: center;
+}
+
+.preguntas_text{
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    color: #3D3938;
+    text-align: left;
+}
+
+.confia_images_1{
+    background-image: url(../images/burbuja.png);
+    float: center;
+    color: #3D3938;
+    background-repeat: no-repeat;
+}
+
+.confia_portimismo_text{
+    font-weight: bold;
+    float: left;
+    font-size: 25px;
+    color: #3D3938;
+    text-align: left;
+}
+
+.confia_portimismo_text_2{
+    font-size: 16px;
+    color: #3D3938;
+    text-align: left;
 }
 
 .ipsum_text{
@@ -789,7 +819,7 @@ button {
     background-image: url(../images/img-12.png);
     height: auto;
     padding-bottom: 90px;
-}
+ }
 
 .contact_text{
      width: 100%;
@@ -859,7 +889,7 @@ textarea#comment::placeholder {
 }
 
 .main_bt a {
-    background: #c2a20e;
+    background: #778166;
     border: none;
     color: #fff;
     height: 50px;
@@ -899,7 +929,7 @@ textarea#comment::placeholder {
     width: 100%;
     float: left;
     font-size: 24px;
-    color: #c2a20e;
+    color: #778166;
     text-align: center;
     margin-left: 0px;
     margin-top: 0px;
@@ -922,7 +952,7 @@ textarea#comment::placeholder {
 .footer_section {
     width: 100%;
     float: left;
-    background-color: #c2a20e;
+    background-color: #778166;
     height: auto;
     padding-bottom: 90px;
 }
