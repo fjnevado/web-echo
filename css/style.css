@@ -740,11 +740,11 @@ button {
     text-align: left;
 }
 
-.confia_images_1{
-    background-image: url(../images/burbuja.png);
-    float: center;
-    color: #3D3938;
-    background-repeat: no-repeat;
+.confia{
+    border-color: #3D3938;
+    border-style: dashed;
+    border-width: 2px;
+    margin-left: -5px;
 }
 
 .confia_portimismo_text{
