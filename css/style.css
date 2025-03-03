@@ -902,6 +902,18 @@ textarea#comment::placeholder {
     color: #000;
 }
 
+.main_bt button {
+    background: #778166;
+    border: none;
+    color: #fff;
+    height: 50px;
+    font-size: 22px;
+    width: 90%;
+    float: left;
+    text-align: center;
+    padding-top: 5px;
+}
+
 .waye_main {
     width: 80%;
     float: left;
