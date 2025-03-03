@@ -2,12 +2,10 @@
 
 
 /*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
-/*-
-@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
-@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
--*/
+@import url('https://fonts.googleapis.com/css?family=Zen+Loop:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 /*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
- 2) font-family: 'Poppins', sans-serif;
+ 2) font-family: 'Yanone Kaffeesatz', sans-serif; font-family: 'Poppins';
  ----------------------------------------*****/
 
 
@@ -39,12 +37,11 @@ html {
 /*-- ALQUIZEN --*/
 body {
      color: #ffffff;
+     font-family: 'Yanone Kaffeesatz';
      font-size: 14px;
-     font-family: Poppins;
      line-height: 1.80857;
      font-weight: normal;
      overflow-x: hidden;
-     font-family: 'Poppins', sans-serif;
 }
 
 a {
@@ -347,12 +344,12 @@ button {
 }
 
 .banner_taital {
-    width: 90%;
+    width: 120%;
     float: left;
     font-size: 56px;
-    color: #ffffff;
+    color: #778166;
     font-weight: bold;
-    font-family: Noto Serif;
+    font-family: 'Zen Loop';
 }
 
 .contrary_text {
@@ -605,7 +602,7 @@ button {
     position: absolute;
     padding-top: 20px;
     padding-left: 15px;
-    font-family: Apple Chancery;
+    font-family: 'Zen Loop';
 }
 
 .home_taital_main {
