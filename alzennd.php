@@ -20,8 +20,10 @@ if(mysqli_connect_errno()){
     $txtMensaje = $_POST['mensaje'];
     
     // Realiza alguna operación con los datos, como almacenarlos en una base de datos, verificar credenciales, etc.
-    $sqltxt = "INSERT INTO Alquizen(Nombre, Correo, Asunto, Mensaje)
-    VALUES('$txtNombre','$txtCorreo','$txtAsunto','$txtMensaje')";
+    $sqltxt = "INSERT INTO Alquizen(Nombre, Correo, Asunto, Mensaje) VALUES('$txtNombre','$txtCorreo','$txtAsunto','$txtMensaje')";
+
+echo $sqltxt;
+exit();
     $insert = mysqli_query($con, $sqltxt) or die(mysqli_error());
 
     // Puedes devolver una respuesta al cliente si es necesario
